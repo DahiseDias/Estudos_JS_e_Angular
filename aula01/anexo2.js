@@ -151,8 +151,8 @@
 
 function getSameDate(jsonArray) {
   var guid = '2ea81f54-f47c-4abe-a434-b823fd9f086a';
-  var arrayWithSameDate.find(element => { 
-    if (element._id === guid) {
+  var jsonArray.find(element => { 
+    if (element['_id'] === guid) {
       return element;
     }
   });
