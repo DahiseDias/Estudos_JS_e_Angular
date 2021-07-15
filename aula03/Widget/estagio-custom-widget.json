@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "name": "estagiario custom widget",
+    "author": "Fernando Cabral<fernando.cabral@midiavox.com.br>",
+    "description": "estagiario custom widget",
+    "version": "0.0.1",
+    "date": "2021-07-08T08:21:41.230Z",
+    "id": "1a564781-c837-4745-a539-44b41fcc1dfb"
+  },
+  "configuration": {
+    "external": true,
+    "timeout": 5000,
+    "serie": true,
+    "name": "estagio custom widget",
+    "element": "<estagio-custom-widget></estagio-custom-widget>",
+    "icon": "aoc-computer",
+    "files": [
+      "https://lushrb16.gl.avaya.com/widget/estagio-custom-widget/estagio-constants-custom-js.js"
+      "https://lushrb16.gl.avaya.com/widget/estagio-custom-widget/estagio-custom-widget.css",
+      "https://lushrb16.gl.avaya.com/widget/estagio-custom-widget/estagio-custom-widget.js",
+      "https://lushrb16.gl.avaya.com/widget/estagio-custom-widget/estagio-custom-js.js",
+    ]
+  }
+}

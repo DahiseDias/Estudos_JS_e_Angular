@@ -1,0 +1,61 @@
+
+.container{
+    background-color:darkslategray;
+    font: 1em sans-serif;
+    width: 400px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 20px;
+    padding: 10px;
+    color: floralwhite;
+    text-align: center;
+}
+
+#entrada{
+    display:grid;
+    text-align: justify;
+    justify-content: center;
+}
+
+.title{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    
+}
+.subtitle{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.input{
+    padding: 15px;
+    width: 280px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: rgb(116, 141, 141);
+}
+
+.checkboxs{
+    
+    position: relative;
+    background-color: rgb(116, 141, 141); 
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+   
+}
+
+#button{
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border-width: 0px;
+    color: floralwhite;
+    background-color: rgb(67, 161, 161); 
+}

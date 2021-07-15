@@ -1,0 +1,28 @@
+<head>
+  <title>form example</title>
+  <link rel="stylesheet" type="text/css" href="customcss.css" />
+  <script src="constants.js"></script>
+  <script src="customjs.js"></script>
+</head>
+
+<body onload="getInformations()">
+  <div class="form">
+    <div class="title">Welcome</div>
+    <div class="subtitle">Submit your informations!</div>
+    <div class="input-container ic1">
+      <input id="fullname" class="input" type="text" placeholder=" " />
+      <div class="cut"></div>
+      <label for="fullname" class="placeholder">Full Name</label>
+    </div>
+    <div class="input-container ic2">
+      <input id="cellphone" class="input" type="text" placeholder=" " />
+      <div class="cut"></div>
+      <label for="cellphone" class="placeholder">Cell Phone</label>
+    </div>
+    <div class="subtitleMessage">Choose your language:</div>
+    <div id="languagesdiv" class="input-container ic3"></div>
+    <div class="input-container ic4">
+      <button type="text" onclick="postInformations()" class="submit">Submit</button>
+    </div>
+  </div>
+</body>

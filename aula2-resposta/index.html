@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href= "style.css">
+    <title>Form</title>
+    <script src="./constants.js"></script>
+    <script src="./script.js"></script>
+</head>
+<body onload="getInformations()">
+    <div class="container">
+        <div class = "title">Formulario</div>
+        <div class = "subtitle">Preencha os campos</div>
+        <div id="entrada">
+            <input type="text" name="nome" class="input" placeholder=" ">
+            <input type="text" name="celular" class="input" placeholder=" ">
+
+            <div class="checkboxs">
+                <input type="checkbox" name="FrontEnd" class="checkvagas">
+                <label for="vagas"> Front End </label>
+                <br>
+                <input type="checkbox" name="BackEnd" class="checkvagas">
+                <label for="vagas"> Back End </label>
+                <br>
+                <input type="checkbox" name="Mobile" class="checkvagas">
+                <label for="vagas"> Mobile </label>
+            </div>
+            <div class="checkboxs">
+                <input type="checkbox" name="Kotlin" class="checklinguagens">
+                <label for="linguagens"> Kotlin </label>
+                <br>
+                <input type="checkbox" name="PHP" class="checklinguagens">
+                <label for="linguagens"> PHP </label>
+                <br>
+                <input type="checkbox" name="JavaScript" class="checklinguagens">
+                <label for="linguagens"> JavaScript </label>
+                <br>
+                <input type="checkbox" name="Java" class="checklinguagens">
+                <label for="linguagens"> Java </label>
+                <br>
+                <input type="checkbox" name="C#" class="checklinguagens">
+                <label for="linguagens"> C# </label>
+            </div>
+
+            
+            <input type="button" value="submit" id="button" onclick="postInformations()">
+
+        </div>
+    </div>
+</body>
+</html>

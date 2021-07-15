@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"  ng-app="listaTelefonica">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Angular</title>
+    <link rel="stylesheet", type="text/css" href="./lib/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <style>
+        .jumbotron{
+            width: 400px;
+        }
+    </style>
+    <script src="./lib/angular.js"></script>
+    <script>
+        angular.module("listaTelefonica", []);
+        angular.module("listaTelefonica").controller("listaTelefonicaCtrl", function ($scope){
+            $scope.app = "Lista Telefonica";
+        });
+    </script>
+</head>
+<body ng-controller = "listaTelefonicaCtrl">
+    <div class="jumbotron">
+        <h4 ng-bind="app"></h4>
+    </div>
+    
+</body>
+</html>

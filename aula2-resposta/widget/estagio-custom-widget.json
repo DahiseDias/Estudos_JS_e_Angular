@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "name": "estagiario custom widget",
+    "author": "Dahise Dias<dahise.dias@midiavox.com.br>",
+    "description": "estagiario custom widget",
+    "version": "0.0.1",
+    "date": "2021-07-08T08:21:41.230Z",
+    "id": "8e23bba6-1017-4480-acfb-c2772dc12f98"
+  },
+  "configuration": {
+    "external": true,
+    "timeout": 5000,
+    "serie": true,
+    "name": "estagio custom widget",
+    "element": "<estagio-custom-widget></estagio-custom-widget>",
+    "icon": "aoc-computer",
+    "files": [
+      "aula2-resposta/widget/widget_constants.js",
+      "aula2-resposta/widget/widget_script.js",
+      "aula2-resposta/widget/widget_style.css",
+      "aula2-resposta/widget/estagio-custom-widget.js"
+    ]
+  }
+}
