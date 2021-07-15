@@ -39,6 +39,8 @@ function getInformations(){
     let nome = document.getElementsByName("nome")
     console.log(nome)
     
+    $scope.linguagens = linguagens
+    $scope.vagas = vagas
 }
 function postInformations(){
     try{
@@ -56,7 +58,7 @@ function postInformations(){
 function fillInformations(resposta){
     var inputName = document.getElementsByName("nome")
     var inputtelefone = document.getElementsByName("telefone")
-    inputName.placeholder = resposta.name
+    inputName.value = resposta.name
     inputtelefone.value = resposta.celular
     inputName.readOnly = true
     inputtelefone.readOnly = true
